@@ -1,6 +1,7 @@
 # ImageFloater
 
 이미지를 화면 위에 띄워 자유롭게 조작할 수 있는 프로그램입니다.
+지원 확장자 **[".png", ".jpg", ".jpeg",".jfif, ".bmp", ".heic", ".heif",".webp",".avif]**
 
 ### 이미지 폴더 관리
 
@@ -78,65 +79,66 @@
 - 설정 파일: 프로그램 실행 파일과 동일한 경로에 `ImageFloater.ini` 생성
 - 캐시 데이터베이스: `ImageFloater_cache.db` 파일에 스캔한 이미지 정보 저장
 - Windows11 환경에서 동작 
-
 ---
 
 # ImageFloater
 
-A program that allows you to float images on top of your screen and manipulate them freely.
+A program that allows you to float images on the screen and manipulate them freely.
+Supported extensions: **[".png", ".jpg", ".jpeg", ".jfif", ".bmp", ".heic", ".heif", ".webp", ".avif"]**
 
 ### Image Folder Management
 
 1.  Right-click menu → Select **Folder Management**
 2.  Add image folders using the **Add Folder** button
-3.  Create groups to categorize folders
+3.  Folders can be categorized by creating groups
 4.  Select folders/groups to use via checkboxes
 
 ## Key Features
 
--   Folder group On/Off management **[F & O]**
+-   On/Off management function per folder group **[F & O]**
 -   Always on Top feature **[F1]**
--   Click-Through Mode (Allows interaction with windows underneath the image) **[F2]**
--   Image Zoom In/Out and Movement **[Ctrl+Mouse Scroll / Ctrl+Drag]**
--   Display images in a window with adjustable transparency **[Alt+Mouse Scroll]**
--   Image Grid Display feature **[G]**
--   Image Aspect Ratio settings
+-   Click-Through Mode (Allows manipulating windows underneath the image) **[F2]**
+-   Image zoom in/out **[Ctrl+Mouse Scroll]** and movement **[Ctrl+Mouse Drag]**
+-   Adjustable window transparency **[Alt+Mouse Scroll]**
+-   Image Grid display feature **[G]**
+-   Image aspect ratio setting feature
 -   Slideshow feature
--   Support for various hotkeys
+-   Supports various hotkeys
 
 ## How to Use
 
 ### Basic Controls
 
--   **Up/Down Arrows (↑, ↓) & (W, S) & Mouse Wheel Scroll**: Previous/Next *Random* Image
--   **Left/Right Arrows (←, →) & (A, D) & PageUp/PageDown**: Previous/Next Image (Sequential)
--   **Ctrl + Mouse Wheel Scroll**: Zoom Image In/Out
--   **Ctrl + Mouse Drag**: Pan/Move Image
--   **Alt + Mouse Wheel Scroll**: Adjust Transparency
--   **Esc**: Exit Program (Settings are saved automatically)
--   **F11**: Toggle Fullscreen
--   **Tab**: Show File Path and Image Resolution
+-   **Up/Down Arrows (↑, ↓) & (W, S) & Mouse Wheel Scroll**: Move to random previous/next image
+-   **Left/Right Arrows (←, →) & (A, D) & PageUp/PageDown**: Move to previous/next image
+-   **Ctrl + Mouse Wheel Scroll**: Zoom image in/out
+-   **Ctrl + Mouse Drag**: Pan/Move image
+-   **Alt + Mouse Wheel Scroll**: Adjust transparency
+-   **Esc**: Exit program and **save settings**
+-   **F11**: Toggle fullscreen window
+-   **TAB**: Check file path and image resolution
 -   **F & O**: Open Folder Management
--   **R**: Refresh Folder List
+-   **R**: Refresh folder list
 -   **G**: Toggle Grid Mode
 -   **F1**: Toggle Always on Top
 -   **F2**: Toggle Click-Through Mode
--   **T**: Toggle Top Menu Bar Visibility
--   **Ctrl + Enter**: Open Current File in Explorer
--   **Ctrl + E**: Open Current File in Paint
--   **Ctrl + C**: Copy Current Image to Clipboard
--   **Del**: Delete Current File
+-   **T**: Toggle Top Menu Bar visibility
+-   **Ctrl + Enter**: Open current file in Explorer
+-   **Ctrl + E**: Open current file in Paint
+-   **Ctrl + C**: Copy current image to clipboard
+-   **Del**: Delete current file
+-   **ESC**: Exit program and **save settings**
 
 ### Menu Functions
 
-Right-click to show the context menu:
+Right-click to display the context menu:
 
--   **Always on Top**: Keeps the window above other windows.
--   **Adjust Transparency**: Set the window's opacity.
--   **Click-Through**: Allows clicks to pass through the image to windows underneath.
--   **Fit Mode**: Set image display mode (e.g., Fit to Screen, Original Size, Fill).
--   **Folder Management**: Add/manage image folders.
--   **Slideshow**: Features automatic image transitions.
+-   **Always on Top**: Keeps the window above other windows
+-   **Adjust Transparency**: Set the window's transparency level
+-   **Click-Through**: Clicks pass through the image to the window below
+-   **Image Display Mode**: Set options like Fit to Screen / Original Size / Stretch to Fill, etc.
+-   **Folder Management**: Add/Manage image folders
+-   **Slideshow**: Automatic image transition feature
 
 ### Using Slideshow
 
@@ -146,12 +148,12 @@ Right-click to show the context menu:
 ### Grid Display Mode
 
 -   Right-click menu → Select **Use Grid Mode**
--   Displays multiple images in a grid layout.
--   **Grid Threshold**: Sets the criteria for grid display when images have significantly different aspect ratios.
+-   Displays multiple images in a grid layout simultaneously
+-   **Grid Threshold**: Sets the tolerance for aspect ratio differences when displaying images in the grid.
 -   **Grid Size Ratio**: Adjusts the size of images within the grid.
 
 ## Technical Information
 
--   Settings File: `ImageFloater.ini` is created in the same directory as the program executable.
--   Cache Database: Scanned image information is stored in `ImageFloater_cache.db`.
--   Compatible with Windows 11 environment.
+-   **Settings File**: `ImageFloater.ini` is created in the same directory as the program executable.
+-   **Cache Database**: Scanned image information is stored in the `ImageFloater_cache.db` file.
+-   Runs on Windows 11 environment.
