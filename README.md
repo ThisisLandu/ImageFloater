@@ -1,7 +1,6 @@
 TODO: 
 - 업데이트시 새버전 프로그램 실행 안되는것 해결
 - 창 활성화시 click-through 비활성화
-- 사진 많은 상태서 키면 렉걸리는거 완화
 
 # ImageFloater
 
