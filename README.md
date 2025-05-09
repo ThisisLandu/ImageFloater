@@ -1,6 +1,5 @@
 TODO: 
 - 업데이트시 새버전 프로그램 실행 안되는것 해결
-- 창 활성화시 click-through 비활성화
 - 그리드 추가 개선
 
 # ImageFloater
